@@ -1,8 +1,8 @@
 {
-	"hash": "277ed2876403a0c2c4e8",
+	"hash": "cd60b1cc4ce609f4c8e4",
 	"version": "5.87.0",
-	"time": 1239,
-	"builtAt": 1705940545228,
+	"time": 1138,
+	"builtAt": 1706274368262,
 	"publicPath": "auto",
 	"outputPath": "/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/dist",
 	"assetsByChunkName": {
@@ -14,13 +14,13 @@
 		{
 			"type": "asset",
 			"name": "build.js",
-			"size": 1070724,
-			"emitted": true,
-			"comparedForEmit": false,
+			"size": 1071736,
+			"emitted": false,
+			"comparedForEmit": true,
 			"cached": false,
 			"info": {
 				"javascriptModule": false,
-				"size": 1070724
+				"size": 1071736
 			},
 			"chunkNames": [
 				"main"
@@ -37,13 +37,13 @@
 		},
 		{
 			"type": "asset",
-			"name": "../src/pageRouter.d.ts",
-			"size": 42,
-			"emitted": true,
-			"comparedForEmit": false,
+			"name": "../src/index.d.ts",
+			"size": 23,
+			"emitted": false,
+			"comparedForEmit": true,
 			"cached": false,
 			"info": {
-				"size": 42
+				"size": 23
 			},
 			"chunkNames": [],
 			"chunkIdHints": [],
@@ -56,13 +56,13 @@
 		},
 		{
 			"type": "asset",
-			"name": "../src/index.d.ts",
-			"size": 0,
-			"emitted": true,
-			"comparedForEmit": false,
+			"name": "../src/pageRouter.d.ts",
+			"size": 11,
+			"emitted": false,
+			"comparedForEmit": true,
 			"cached": false,
 			"info": {
-				"size": 0
+				"size": 11
 			},
 			"chunkNames": [],
 			"chunkIdHints": [],
@@ -80,9 +80,9 @@
 			"initial": true,
 			"entry": true,
 			"recorded": false,
-			"size": 793844,
+			"size": 794257,
 			"sizes": {
-				"javascript": 792907,
+				"javascript": 793320,
 				"runtime": 937
 			},
 			"names": [
@@ -96,7 +96,7 @@
 				"build.js"
 			],
 			"auxiliaryFiles": [],
-			"hash": "f83661dbf28662ed51fd",
+			"hash": "18622b72530b19b866b0",
 			"childrenByOrder": {},
 			"id": "main",
 			"siblings": [],
@@ -165,14 +165,14 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/postcss.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js"
 						},
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/buffer/index.js",
@@ -237,8 +237,8 @@
 					"optional": false,
 					"orphan": false,
 					"dependent": true,
-					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-					"issuerName": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
+					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+					"issuerName": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
 					"issuerPath": [
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -276,21 +276,21 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/postcss.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js"
 						}
 					],
 					"failed": false,
 					"errors": 0,
 					"warnings": 0,
 					"id": "../../../thorium-cli/node_modules/buffer/index.js",
-					"issuerId": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
+					"issuerId": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
 					"chunks": [
 						"main"
 					],
@@ -439,14 +439,14 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/postcss.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js"
 						},
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/buffer/index.js",
@@ -779,11 +779,67 @@
 							"moduleName": "./src/pageRouter.tsx",
 							"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
 							"resolvedModule": "./src/pageRouter.tsx",
-							"type": "cjs require",
+							"type": "harmony side effect evaluation",
 							"active": true,
 							"explanation": "",
 							"userRequest": "thorium-framework",
-							"loc": "6:4-32",
+							"loc": "1:0-53",
+							"moduleId": "./src/pageRouter.tsx",
+							"resolvedModuleId": "./src/pageRouter.tsx"
+						},
+						{
+							"moduleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+							"module": "./src/pageRouter.tsx",
+							"moduleName": "./src/pageRouter.tsx",
+							"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+							"resolvedModule": "./src/pageRouter.tsx",
+							"type": "harmony import specifier",
+							"active": true,
+							"explanation": "",
+							"userRequest": "thorium-framework",
+							"loc": "7:0-10",
+							"moduleId": "./src/pageRouter.tsx",
+							"resolvedModuleId": "./src/pageRouter.tsx"
+						},
+						{
+							"moduleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+							"module": "./src/pageRouter.tsx",
+							"moduleName": "./src/pageRouter.tsx",
+							"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+							"resolvedModule": "./src/pageRouter.tsx",
+							"type": "harmony import specifier",
+							"active": true,
+							"explanation": "",
+							"userRequest": "thorium-framework",
+							"loc": "8:10-14",
+							"moduleId": "./src/pageRouter.tsx",
+							"resolvedModuleId": "./src/pageRouter.tsx"
+						},
+						{
+							"moduleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+							"module": "./src/pageRouter.tsx",
+							"moduleName": "./src/pageRouter.tsx",
+							"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+							"resolvedModule": "./src/pageRouter.tsx",
+							"type": "harmony import specifier",
+							"active": true,
+							"explanation": "",
+							"userRequest": "thorium-framework",
+							"loc": "18:6-10",
+							"moduleId": "./src/pageRouter.tsx",
+							"resolvedModuleId": "./src/pageRouter.tsx"
+						},
+						{
+							"moduleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+							"module": "./src/pageRouter.tsx",
+							"moduleName": "./src/pageRouter.tsx",
+							"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+							"resolvedModule": "./src/pageRouter.tsx",
+							"type": "harmony import specifier",
+							"active": true,
+							"explanation": "",
+							"userRequest": "thorium-framework",
+							"loc": "28:6-10",
 							"moduleId": "./src/pageRouter.tsx",
 							"resolvedModuleId": "./src/pageRouter.tsx"
 						},
@@ -12592,8 +12648,8 @@
 					"optional": false,
 					"orphan": false,
 					"dependent": true,
-					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js",
-					"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js",
+					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js",
+					"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js",
 					"issuerPath": [
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -12636,16 +12692,16 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js"
 						}
 					],
 					"failed": false,
 					"errors": 0,
 					"warnings": 0,
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-spec.js",
-					"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js",
+					"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js",
 					"chunks": [
 						"main"
 					],
@@ -17209,8 +17265,8 @@
 					"optional": false,
 					"orphan": false,
 					"dependent": true,
-					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js",
-					"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js",
+					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js",
+					"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js",
 					"issuerPath": [
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -17253,16 +17309,16 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js"
 						}
 					],
 					"failed": false,
 					"errors": 0,
 					"warnings": 0,
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixer.js",
-					"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js",
+					"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js",
 					"chunks": [
 						"main"
 					],
@@ -18140,8 +18196,8 @@
 					"optional": false,
 					"orphan": false,
 					"dependent": true,
-					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js",
-					"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js",
+					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js",
+					"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js",
 					"issuerPath": [
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -18179,16 +18235,16 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/autoprefixer.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 						}
 					],
 					"failed": false,
 					"errors": 0,
 					"warnings": 0,
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/utils.js",
-					"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js",
+					"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js",
 					"chunks": [
 						"main"
 					],
@@ -19547,14 +19603,9 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/autoprefixer.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js"
-						},
-						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js"
 						},
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/browserVersions.js",
@@ -19670,14 +19721,9 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/autoprefixer.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js"
-						},
-						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js"
 						},
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/browsers.js",
@@ -28027,8 +28073,8 @@
 					"optional": false,
 					"orphan": false,
 					"dependent": true,
-					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-					"issuerName": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
+					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+					"issuerName": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
 					"issuerPath": [
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -28066,21 +28112,16 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/autoprefixer.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js"
-						},
-						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js"
 						}
 					],
 					"failed": false,
 					"errors": 0,
 					"warnings": 0,
 					"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/browserVersions.js",
-					"issuerId": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
+					"issuerId": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
 					"chunks": [
 						"main"
 					],
@@ -28145,8 +28186,8 @@
 					"optional": false,
 					"orphan": false,
 					"dependent": true,
-					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-					"issuerName": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
+					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+					"issuerName": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
 					"issuerPath": [
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -28184,21 +28225,16 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/autoprefixer.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js"
-						},
-						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js"
 						}
 					],
 					"failed": false,
 					"errors": 0,
 					"warnings": 0,
 					"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/browsers.js",
-					"issuerId": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
+					"issuerId": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
 					"chunks": [
 						"main"
 					],
@@ -29750,8 +29786,8 @@
 					"optional": false,
 					"orphan": false,
 					"dependent": true,
-					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
+					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
 					"issuerPath": [
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -29794,16 +29830,16 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js"
 						}
 					],
 					"failed": false,
 					"errors": 0,
 					"warnings": 0,
 					"id": "../../../thorium-framework/modules/core/node_modules/postcss-value-parser/lib/index.js",
-					"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
+					"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
 					"chunks": [
 						"main"
 					],
@@ -29954,9 +29990,9 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js"
 						},
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss-value-parser/lib/index.js",
@@ -30077,9 +30113,9 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js"
 						},
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss-value-parser/lib/index.js",
@@ -30200,9 +30236,9 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js"
 						},
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss-value-parser/lib/index.js",
@@ -30323,9 +30359,9 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js"
 						},
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss-value-parser/lib/index.js",
@@ -32644,8 +32680,8 @@
 					"optional": false,
 					"orphan": false,
 					"dependent": true,
-					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"issuerName": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
+					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
+					"issuerName": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
 					"issuerPath": [
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -32683,16 +32719,16 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/postcss.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js"
 						}
 					],
 					"failed": false,
 					"errors": 0,
 					"warnings": 0,
 					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-					"issuerId": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
+					"issuerId": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
 					"chunks": [
 						"main"
 					],
@@ -34820,8 +34856,8 @@
 					"optional": false,
 					"orphan": false,
 					"dependent": true,
-					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js",
-					"issuerName": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js",
+					"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js",
+					"issuerName": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js",
 					"issuerPath": [
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -34864,16 +34900,16 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/index.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js"
 						}
 					],
 					"failed": false,
 					"errors": 0,
 					"warnings": 0,
 					"id": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/internal.js",
-					"issuerId": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js",
+					"issuerId": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js",
 					"chunks": [
 						"main"
 					],
@@ -35538,9 +35574,9 @@
 					"type": "module",
 					"moduleType": "javascript/auto",
 					"layer": null,
-					"size": 39,
+					"size": 22,
 					"sizes": {
-						"javascript": 39
+						"javascript": 22
 					},
 					"built": true,
 					"codeGenerated": true,
@@ -35586,7 +35622,7 @@
 						}
 					],
 					"usedExports": null,
-					"providedExports": null,
+					"providedExports": [],
 					"optimizationBailout": [],
 					"depth": 0
 				},
@@ -35594,9 +35630,9 @@
 					"type": "module",
 					"moduleType": "javascript/auto",
 					"layer": null,
-					"size": 592,
+					"size": 1022,
 					"sizes": {
-						"javascript": 592
+						"javascript": 1022
 					},
 					"built": true,
 					"codeGenerated": true,
@@ -35638,17 +35674,17 @@
 							"moduleName": "./src/index.ts",
 							"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
 							"resolvedModule": "./src/index.ts",
-							"type": "cjs require",
+							"type": "harmony side effect evaluation",
 							"active": true,
 							"explanation": "",
 							"userRequest": "./pageRouter",
-							"loc": "3:0-23",
+							"loc": "1:0-22",
 							"moduleId": "./src/index.ts",
 							"resolvedModuleId": "./src/index.ts"
 						}
 					],
 					"usedExports": null,
-					"providedExports": null,
+					"providedExports": [],
 					"optimizationBailout": [],
 					"depth": 1
 				},
@@ -35825,9 +35861,9 @@
 							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/postcss.js"
 						},
 						{
-							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js"
+							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
+							"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
+							"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js"
 						},
 						{
 							"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
@@ -36484,9 +36520,9 @@
 			"type": "module",
 			"moduleType": "javascript/auto",
 			"layer": null,
-			"size": 39,
+			"size": 22,
 			"sizes": {
-				"javascript": 39
+				"javascript": 22
 			},
 			"built": true,
 			"codeGenerated": true,
@@ -36531,7 +36567,7 @@
 				}
 			],
 			"usedExports": null,
-			"providedExports": null,
+			"providedExports": [],
 			"optimizationBailout": [],
 			"depth": 0
 		},
@@ -36539,9 +36575,9 @@
 			"type": "module",
 			"moduleType": "javascript/auto",
 			"layer": null,
-			"size": 592,
+			"size": 1022,
 			"sizes": {
-				"javascript": 592
+				"javascript": 1022
 			},
 			"built": true,
 			"codeGenerated": true,
@@ -36582,17 +36618,17 @@
 					"moduleName": "./src/index.ts",
 					"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
 					"resolvedModule": "./src/index.ts",
-					"type": "cjs require",
+					"type": "harmony side effect evaluation",
 					"active": true,
 					"explanation": "",
 					"userRequest": "./pageRouter",
-					"loc": "3:0-23",
+					"loc": "1:0-22",
 					"moduleId": "./src/index.ts",
 					"resolvedModuleId": "./src/index.ts"
 				}
 			],
 			"usedExports": null,
-			"providedExports": null,
+			"providedExports": [],
 			"optimizationBailout": [],
 			"depth": 1
 		},
@@ -36648,11 +36684,67 @@
 					"moduleName": "./src/pageRouter.tsx",
 					"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
 					"resolvedModule": "./src/pageRouter.tsx",
-					"type": "cjs require",
+					"type": "harmony side effect evaluation",
 					"active": true,
 					"explanation": "",
 					"userRequest": "thorium-framework",
-					"loc": "6:4-32",
+					"loc": "1:0-53",
+					"moduleId": "./src/pageRouter.tsx",
+					"resolvedModuleId": "./src/pageRouter.tsx"
+				},
+				{
+					"moduleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+					"module": "./src/pageRouter.tsx",
+					"moduleName": "./src/pageRouter.tsx",
+					"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+					"resolvedModule": "./src/pageRouter.tsx",
+					"type": "harmony import specifier",
+					"active": true,
+					"explanation": "",
+					"userRequest": "thorium-framework",
+					"loc": "7:0-10",
+					"moduleId": "./src/pageRouter.tsx",
+					"resolvedModuleId": "./src/pageRouter.tsx"
+				},
+				{
+					"moduleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+					"module": "./src/pageRouter.tsx",
+					"moduleName": "./src/pageRouter.tsx",
+					"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+					"resolvedModule": "./src/pageRouter.tsx",
+					"type": "harmony import specifier",
+					"active": true,
+					"explanation": "",
+					"userRequest": "thorium-framework",
+					"loc": "8:10-14",
+					"moduleId": "./src/pageRouter.tsx",
+					"resolvedModuleId": "./src/pageRouter.tsx"
+				},
+				{
+					"moduleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+					"module": "./src/pageRouter.tsx",
+					"moduleName": "./src/pageRouter.tsx",
+					"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+					"resolvedModule": "./src/pageRouter.tsx",
+					"type": "harmony import specifier",
+					"active": true,
+					"explanation": "",
+					"userRequest": "thorium-framework",
+					"loc": "18:6-10",
+					"moduleId": "./src/pageRouter.tsx",
+					"resolvedModuleId": "./src/pageRouter.tsx"
+				},
+				{
+					"moduleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+					"module": "./src/pageRouter.tsx",
+					"moduleName": "./src/pageRouter.tsx",
+					"resolvedModuleIdentifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/pageRouter.tsx",
+					"resolvedModule": "./src/pageRouter.tsx",
+					"type": "harmony import specifier",
+					"active": true,
+					"explanation": "",
+					"userRequest": "thorium-framework",
+					"loc": "28:6-10",
 					"moduleId": "./src/pageRouter.tsx",
 					"resolvedModuleId": "./src/pageRouter.tsx"
 				},
@@ -50483,8 +50575,8 @@
 			"cacheable": true,
 			"optional": false,
 			"orphan": false,
-			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-			"issuerName": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
+			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
+			"issuerName": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
 			"issuerPath": [
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -50522,16 +50614,16 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/postcss.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js"
 				}
 			],
 			"failed": false,
 			"errors": 0,
 			"warnings": 0,
 			"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-			"issuerId": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
+			"issuerId": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
 			"chunks": [
 				"main"
 			],
@@ -51055,8 +51147,8 @@
 			"cacheable": true,
 			"optional": false,
 			"orphan": false,
-			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-			"issuerName": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
+			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+			"issuerName": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
 			"issuerPath": [
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -51094,21 +51186,16 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/autoprefixer.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js"
-				},
-				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js"
 				}
 			],
 			"failed": false,
 			"errors": 0,
 			"warnings": 0,
 			"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/browsers.js",
-			"issuerId": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
+			"issuerId": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
 			"chunks": [
 				"main"
 			],
@@ -51172,8 +51259,8 @@
 			"cacheable": true,
 			"optional": false,
 			"orphan": false,
-			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-			"issuerName": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
+			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+			"issuerName": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
 			"issuerPath": [
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -51211,21 +51298,16 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/autoprefixer.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js"
-				},
-				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js"
 				}
 			],
 			"failed": false,
 			"errors": 0,
 			"warnings": 0,
 			"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/browserVersions.js",
-			"issuerId": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
+			"issuerId": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
 			"chunks": [
 				"main"
 			],
@@ -52076,8 +52158,8 @@
 			"cacheable": true,
 			"optional": false,
 			"orphan": false,
-			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js",
-			"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js",
+			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js",
+			"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js",
 			"issuerPath": [
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -52115,16 +52197,16 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/autoprefixer.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 				}
 			],
 			"failed": false,
 			"errors": 0,
 			"warnings": 0,
 			"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/utils.js",
-			"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/browsers.js",
+			"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js",
 			"chunks": [
 				"main"
 			],
@@ -69124,9 +69206,9 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/postcss.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/fromJSON.js"
 				},
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
@@ -69186,8 +69268,8 @@
 			"cacheable": true,
 			"optional": false,
 			"orphan": false,
-			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-			"issuerName": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
+			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+			"issuerName": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
 			"issuerPath": [
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -69225,21 +69307,21 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/postcss.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js"
 				}
 			],
 			"failed": false,
 			"errors": 0,
 			"warnings": 0,
 			"id": "../../../thorium-cli/node_modules/buffer/index.js",
-			"issuerId": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
+			"issuerId": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
 			"chunks": [
 				"main"
 			],
@@ -69504,14 +69586,9 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/autoprefixer.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js"
-				},
-				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js"
 				},
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/browsers.js",
@@ -69626,14 +69703,9 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/autoprefixer.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/data/prefixes.js"
-				},
-				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/feature.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/agents.js"
 				},
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/caniuse-lite/dist/unpacker/browserVersions.js",
@@ -69709,8 +69781,8 @@
 			"cacheable": true,
 			"optional": false,
 			"orphan": false,
-			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js",
-			"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js",
+			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js",
+			"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js",
 			"issuerPath": [
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -69753,16 +69825,16 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js"
 				}
 			],
 			"failed": false,
 			"errors": 0,
 			"warnings": 0,
 			"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixer.js",
-			"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/resolution.js",
+			"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/value.js",
 			"chunks": [
 				"main"
 			],
@@ -69999,8 +70071,8 @@
 			"cacheable": true,
 			"optional": false,
 			"orphan": false,
-			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-			"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
+			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+			"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
 			"issuerPath": [
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -70043,16 +70115,16 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js"
 				}
 			],
 			"failed": false,
 			"errors": 0,
 			"warnings": 0,
 			"id": "../../../thorium-framework/modules/core/node_modules/postcss-value-parser/lib/index.js",
-			"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
+			"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
 			"chunks": [
 				"main"
 			],
@@ -71117,8 +71189,8 @@
 			"cacheable": true,
 			"optional": false,
 			"orphan": false,
-			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js",
-			"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js",
+			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js",
+			"issuerName": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js",
 			"issuerPath": [
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -71161,16 +71233,16 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js"
 				}
 			],
 			"failed": false,
 			"errors": 0,
 			"warnings": 0,
 			"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-spec.js",
-			"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/order.js",
+			"issuerId": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/hacks/flex-flow.js",
 			"chunks": [
 				"main"
 			],
@@ -71519,8 +71591,8 @@
 			"cacheable": true,
 			"optional": false,
 			"orphan": false,
-			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js",
-			"issuerName": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js",
+			"issuer": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js",
+			"issuerName": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js",
 			"issuerPath": [
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use[0]!/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/ts-loader/index.js??ruleSet[1].rules[0].use[1]!/Users/guillaume/Documents/Odyssee/thorium/starters/web/thorium-framework-tsx-starter/src/index.ts",
@@ -71563,16 +71635,16 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/index.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js"
 				}
 			],
 			"failed": false,
 			"errors": 0,
 			"warnings": 0,
 			"id": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/internal.js",
-			"issuerId": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/flatten.js",
+			"issuerId": "../../../thorium-framework/modules/core/node_modules/uni-flatten/dist/configure.js",
 			"chunks": [
 				"main"
 			],
@@ -71768,14 +71840,14 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/postcss.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js"
 				},
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/buffer/index.js",
@@ -71878,14 +71950,14 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/postcss.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/input.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/lazy-result.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/previous-map.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/postcss/lib/map-generator.js"
 				},
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-cli/node_modules/buffer/index.js",
@@ -71992,9 +72064,9 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js"
 				},
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss-value-parser/lib/index.js",
@@ -72114,9 +72186,9 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js"
 				},
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss-value-parser/lib/index.js",
@@ -72236,9 +72308,9 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js"
 				},
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss-value-parser/lib/index.js",
@@ -72358,9 +72430,9 @@
 					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/prefixes.js"
 				},
 				{
-					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js",
-					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/processor.js"
+					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"name": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js",
+					"id": "../../../thorium-framework/modules/core/node_modules/autoprefixer/lib/transition.js"
 				},
 				{
 					"identifier": "/Users/guillaume/Documents/Odyssee/thorium/thorium-framework/modules/core/node_modules/postcss-value-parser/lib/index.js",
@@ -72564,11 +72636,11 @@
 			"assets": [
 				{
 					"name": "build.js",
-					"size": 1070724
+					"size": 1071736
 				}
 			],
 			"filteredAssets": 0,
-			"assetsSize": 1070724,
+			"assetsSize": 1071736,
 			"auxiliaryAssets": [],
 			"filteredAuxiliaryAssets": 0,
 			"auxiliaryAssetsSize": 0,
@@ -72586,11 +72658,11 @@
 			"assets": [
 				{
 					"name": "build.js",
-					"size": 1070724
+					"size": 1071736
 				}
 			],
 			"filteredAssets": 0,
-			"assetsSize": 1070724,
+			"assetsSize": 1071736,
 			"auxiliaryAssets": [],
 			"filteredAuxiliaryAssets": 0,
 			"auxiliaryAssetsSize": 0,
